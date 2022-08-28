@@ -38,7 +38,7 @@ session_start();
     $locality = htmlspecialchars(validateData("locality"),ENT_QUOTES);    
     $banti = htmlspecialchars(validateData("banti"),ENT_QUOTES);    
 
-    $pdo = new PDO('mysql:charset=utf8;dbname=basic;host=localhost', 'root', '48691062');
+    $pdo = new PDO('mysql:charset=utf8;dbname=basic;host=localhost', 'ユーザー名', 'パスワード');
     
     $stmt = $pdo->prepare("INSERT INTO form (
         seibetsu,name, tel, yuubin,region,locality,banti,textarea

@@ -53,7 +53,7 @@ $banti = $_SESSION['banti'];
 
 
 $mailTO = $mail;
-$mailHeader = "k013c5009@it-neec.jp";
+$mailHeader = "メール送信元";
 
 $mailSubject = "お問い合わせありがとうございます";
 $mailBody = $name . "様 お問い合わせありがとうございます"."\r\n"
@@ -69,7 +69,7 @@ $mailBody = $name . "様 お問い合わせありがとうございます"."\r\n
 . "メール：" . $mail."\r\n"
 . "感想："."\r\n" . $textarea."\r\n"
 ."なにかご不明点がございましたらこちらまでお願いします！"."\r\n"
-."k013c5009@it-neec.jp";
+."案内先メールアドレス";
 
 
 mail($mailTO, $mailSubject, $mailBody, $mailHeader);

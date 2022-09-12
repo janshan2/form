@@ -393,7 +393,7 @@ textarea{
     </form>
 
     <footer>
-        <p>&copy;2022 Tatsuya Asakura</p>
+        <p>&copy;2022 AAA</p>
     </footer>
 </body>
 </html>
